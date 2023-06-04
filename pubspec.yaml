@@ -1,0 +1,43 @@
+name: surf_batumi_meetup
+description: Surf Batumi meetup demo.
+publish_to: "none"
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter 
+  animated_glitch: 2.0.0-dev.2
+  flutter_shaders: 0.1.1
+  statsfl: ^2.3.0 
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: 2.0.0
+  flutter_native_splash: 2.3.0
+
+flutter: 
+  uses-material-design: true
+  shaders:
+    - packages/animated_glitch/shader/glitch.frag
+    - shaders/distorted_glitch.frag
+    - shaders/smooth_glitch.frag
+    - shaders/fractal_pyramid.frag
+    - shaders/shaking_glitch.frag
+  assets:
+    - assets/
+
+flutter_native_splash:
+  color: "#101010"
+  image: assets/splash.png
+  android: true
+  ios: true
+  web: true
+  android_gravity: center 
+  ios_content_mode: center 
+  web_image_mode: center
