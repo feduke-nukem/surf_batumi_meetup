@@ -12,6 +12,6 @@
 #### [Presentation link](https://docs.google.com/presentation/d/1Vne_Wogn6NNdYfPGB6iMOZlwbE8WddNyI76KKI0iAiQ/edit?usp=sharing)
 
 <p align="center">
-  <img src="https://github.com/feduke-nukem/surf_batumi_meetup/assets/72284940/d7aed6ae-af94-4983-a54a-b936603ec5be" />
-</p>
- 
+  <img src="https://github.com/feduke-nukem/surf_batumi_meetup/assets/72284940/4be43ca9-c517-41ee-b810-072452f8bb85" />
+</p> 
+
